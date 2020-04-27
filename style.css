@@ -4,18 +4,37 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Bigelow';
+    src: url(./assets/BiegelowRules/BigelowRules-Regular.ttf);
+}
+
+h1 {
+    font-family: 'Bigelow';
+    color: white;
+    font-weight: bold;
+}
+
+li {
+    font-family: 'Bigelow';
+    color: white;
+    font-weight: bold;
+}
+
 
 /* Body */
 
 body {
     display: flex;
+    background: url(./images/harrypotter2.svg) no-repeat center/ cover;
+    background-position: top;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .section_tablette {
     height: 100vh;
     width: 100vh;
-    background-color: beige;
-    padding: 2%;
+    padding: 2% 5%;
     flex: 1;
 }
 
@@ -163,9 +182,21 @@ body {
 
 .section_livres {
     flex: 1;
-    background-color: beige;
+    padding: 5%;
+}
+
+.listeLivres,
+h1 {
+    padding-left: 20%;
 }
 
 .section_livres h1 {
-    font-size: 25px;
+    font-size: 40px;
+}
+
+.section_livres li {
+    font-size: 30px;
+    padding: 2%;
+    list-style: none;
+    cursor: pointer;
 }
