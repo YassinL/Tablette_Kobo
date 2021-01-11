@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Bigelow';
+    src: url(../assets/BiegelowRules/BigelowRules-Regular.ttf);
+}
+
+h1 {
+    font-family: 'Bigelow';
+    font-weight: bold;
+}
+
+li {
+    font-family: 'Bigelow';
+    font-weight: bold;
+}

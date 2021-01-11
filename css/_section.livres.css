@@ -1,0 +1,60 @@
+/* SECTION LIVRES */
+
+.section_livres {
+    flex: 1;
+    padding: 5%;
+}
+
+.listeLivres,
+h1 {
+    padding-left: 20%;
+}
+
+.section_livres h1 {
+    font-size: 40px;
+    text-shadow: 1px 1px 3px rgb(22, 22, 22);
+}
+
+.livre {
+    font-size: 30px;
+    padding: 2%;
+    list-style: none;
+    cursor: pointer;
+    text-shadow: 1px 1px 4px rgb(82, 82, 82);
+}
+
+.livre:active {
+    text-shadow: 1px 1px 4px rgb(0, 0, 0);
+}
+
+.harry1:hover {
+    text-shadow: 1px 1px 4px #f53730;
+}
+
+.harry2:hover {
+    text-shadow: 1px 1px 4px #20c04b;
+}
+
+.harry3:hover {
+    text-shadow: 1px 1px 4px #fcdd5f;
+}
+
+.harry4:hover {
+    text-shadow: 1px 1px 4px #f53730;
+}
+
+.harry5:hover {
+    text-shadow: 1px 1px 4px #20c04b;
+}
+
+.harry6:hover {
+    text-shadow: 1px 1px 4px #329fe7;
+}
+
+.harry7:hover {
+    text-shadow: 1px 1px 4px #3fe793;
+}
+
+.harry8:hover {
+    text-shadow: 1px 1px 4px #fff4f4;
+}
